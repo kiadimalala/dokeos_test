@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+  "strict":true,
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames":true,
+    "importHelpers":true,
+    "paths": {
+
+      "@app/components": ["./src/components"],
+      "@app/pages":["./src/pages"],
+      "@app/contants":["./src/constants"],
+      "@app/layouts":["./src/Layouts"]
+
+    }
+  }
+}
