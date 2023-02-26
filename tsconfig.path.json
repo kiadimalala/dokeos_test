@@ -9,7 +9,8 @@
       "@app/components": ["./src/components"],
       "@app/pages":["./src/pages"],
       "@app/contants":["./src/constants"],
-      "@app/layouts":["./src/Layouts"]
+      "@app/layouts":["./src/Layouts"],
+      "@app/icons":["./src/SVG"]
 
     }
   }

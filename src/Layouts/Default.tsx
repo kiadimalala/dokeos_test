@@ -1,3 +1,4 @@
+import { Toolbar } from "@app/components";
 import React from "react";
 import styled from "styled-components";
 
@@ -9,7 +10,7 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ className, children }) => {
   return (
     <LayoutWrapper>
-      <div>header</div>
+      <Toolbar />
       <div>{children && children}</div>
     </LayoutWrapper>
   );
