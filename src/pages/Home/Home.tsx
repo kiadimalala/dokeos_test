@@ -5,6 +5,6 @@ const Home = () => {
   return <Wrapper>Home</Wrapper>;
 };
 
-const Wrapper = styled(DefaultLayout)``;
+const Wrapper = styled.div``;
 
 export default Home;
