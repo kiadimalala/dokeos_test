@@ -1,12 +1,23 @@
+import { theme } from "@app/contants";
 import React from "react";
 import { Outlet } from "react-router-dom";
+import styled from "styled-components";
 
 const Settings = () => {
   return (
-    <div>
+    <Wrapper className="settings_wrapper">
       <Outlet />
-    </div>
+    </Wrapper>
   );
 };
+
+const Wrapper = styled.div`
+  &.settings_wrapper {
+    width: 100%;
+    height: 100% !important;
+    overflow-x: hidden;
+    position: relative;
+  }
+`;
 
 export default Settings;

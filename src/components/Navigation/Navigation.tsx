@@ -87,24 +87,26 @@ const Wrapper = styled.div`
   &.navigation_wrapper {
     width: 196px;
     box-shadow: ${theme.shadow.md};
-    min-height: 100vh;
     display: flex;
     justify-content: center;
-    padding: 40px 0;
+
+    z-index: 260;
+    height: 100%;
+    background-color: ${theme.color.white_primary};
     .link_list {
       display: flex;
       flex-direction: column;
       align-items: center;
       color: ${theme.color.gray_primary};
       width: 100%;
-      justify-content: center;
+      padding: 40px 0;
       .link_item {
         width: 100%;
         display: flex;
         align-items: center;
         text-decoration: none;
         color: inherit;
-        font-size: 12px;
+        font-size: 10px;
         border-top: 1px solid #f2f2f2;
         .main_links {
           display: flex;
@@ -116,7 +118,8 @@ const Wrapper = styled.div`
             margin-right: 10px;
             margin-left: 20px;
             .icon {
-              font-size: 24px;
+              width: 16px;
+              height: 16px;
             }
           }
         }
@@ -155,7 +158,7 @@ const Wrapper = styled.div`
             span {
               margin-left: 10px;
               white-space: pre-wrap;
-              max-width: 50px;
+              max-width: 70px;
             }
           }
           .link_item::before {

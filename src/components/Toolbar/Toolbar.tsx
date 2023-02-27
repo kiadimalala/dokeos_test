@@ -44,6 +44,8 @@ const ToolbarWrapper = styled.div`
     display: flex;
     align-items: center;
     padding: 10px 20px;
+    background-color: ${theme.color.white_primary};
+    z-index:1200;
     .toolbar_logo,
     .toolbar_user_action {
       width: 25%;

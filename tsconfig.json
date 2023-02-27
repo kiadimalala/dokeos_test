@@ -22,6 +22,6 @@
   },
   "include": [
     "src"
-  ],
+, "allTypes.d.ts"  ],
   "extends":"./tsconfig.path.json"
 }

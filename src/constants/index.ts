@@ -22,6 +22,7 @@ export const theme = {
         full: "9999px",
         sm : "4px",
         md:"6px",
-        xl:"8px"
+        lg:"8px",
+        xl:"16px"
     }
 }
