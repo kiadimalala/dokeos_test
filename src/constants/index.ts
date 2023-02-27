@@ -1,3 +1,5 @@
+import React from "react"
+
 export const theme = {
     color:{
         white_primary:"#ffffff",
@@ -26,3 +28,5 @@ export const theme = {
         xl:"16px"
     }
 }
+
+

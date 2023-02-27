@@ -16,6 +16,7 @@ const Wrapper = styled.div`
     width: 100%;
     height: 100% !important;
     overflow-x: hidden;
+    overflow-y: auto;
     position: relative;
   }
 `;
